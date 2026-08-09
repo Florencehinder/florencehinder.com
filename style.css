@@ -127,13 +127,14 @@ nav.links a:hover {
 }
 
 .contact {
-  margin-top: 2.4rem;
-  font-size: 1.05rem;
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
 }
 
 .email-copy {
   font: inherit;
-  color: #6b7280;
+  color: #1f2430;
   background: none;
   border: none;
   padding: 0 0 1px;
