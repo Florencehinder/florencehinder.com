@@ -1,3 +1,29 @@
+// Click-to-copy email. The address is assembled here rather than written
+// in the HTML so naive spam scrapers don't find it.
+(function () {
+  const btn = document.querySelector(".email-copy");
+  if (!btn) return;
+  const note = document.querySelector(".copy-note");
+  const address = ["fhinder", "gmail.com"].join("@");
+  btn.textContent = address;
+
+  let hideTimer;
+  btn.addEventListener("click", () => {
+    navigator.clipboard.writeText(address).then(
+      () => {
+        note.textContent = "Copied ✓";
+        note.classList.add("show");
+        clearTimeout(hideTimer);
+        hideTimer = setTimeout(() => note.classList.remove("show"), 2000);
+      },
+      () => {
+        // clipboard unavailable (very old browser) — fall back to mail app
+        window.location.href = "mailto:" + address;
+      }
+    );
+  });
+})();
+
 // Mouse wind, organic version.
 // Moving the pointer doesn't push the flowers directly — it stirs up a
 // soft "wind" that swells while the mouse moves and exhales slowly after.

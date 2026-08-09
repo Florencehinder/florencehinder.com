@@ -126,6 +126,39 @@ nav.links a:hover {
   border-color: #d9a300;
 }
 
+.contact {
+  margin-top: 2.4rem;
+  font-size: 1.05rem;
+}
+
+.email-copy {
+  font: inherit;
+  color: #6b7280;
+  background: none;
+  border: none;
+  padding: 0 0 1px;
+  cursor: pointer;
+  border-bottom: 2px solid #f2c230;
+  transition: border-color 0.15s ease, color 0.15s ease;
+}
+
+.email-copy:hover {
+  color: #8a6d00;
+  border-color: #d9a300;
+}
+
+.copy-note {
+  margin-left: 0.5rem;
+  color: #8a6d00;
+  font-size: 0.95rem;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+.copy-note.show {
+  opacity: 1;
+}
+
 /* Inner pages */
 .card {
   background: #ffffff;
