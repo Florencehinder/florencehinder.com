@@ -1,4 +1,5 @@
 {
+  "cleanUrls": true,
   "redirects": [
     { "source": "/LGM-meditation-timer", "destination": "/LGM-meditation-timer/", "permanent": false },
     { "source": "/lgm-meditation-timer", "destination": "/LGM-meditation-timer/", "permanent": false }
