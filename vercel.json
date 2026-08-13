@@ -1,0 +1,10 @@
+{
+  "redirects": [
+    { "source": "/LGM-meditation-timer", "destination": "/LGM-meditation-timer/", "permanent": false },
+    { "source": "/lgm-meditation-timer", "destination": "/LGM-meditation-timer/", "permanent": false }
+  ],
+  "rewrites": [
+    { "source": "/LGM-meditation-timer/:path*", "destination": "https://lgm-meditation-timer.vercel.app/:path*" },
+    { "source": "/lgm-meditation-timer/:path*", "destination": "https://lgm-meditation-timer.vercel.app/:path*" }
+  ]
+}
