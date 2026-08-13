@@ -1,11 +1,33 @@
 {
   "cleanUrls": true,
   "redirects": [
-    { "source": "/LGM-meditation-timer", "destination": "/LGM-meditation-timer/", "permanent": false },
-    { "source": "/lgm-meditation-timer", "destination": "/LGM-meditation-timer/", "permanent": false }
+    {
+      "source": "/LGM-meditation-timer",
+      "destination": "/LGM-meditation-timer/",
+      "permanent": false
+    },
+    {
+      "source": "/lgm-meditation-timer",
+      "destination": "/LGM-meditation-timer/",
+      "permanent": false
+    }
   ],
   "rewrites": [
-    { "source": "/LGM-meditation-timer/:path*", "destination": "https://lgm-meditation-timer.vercel.app/:path*" },
-    { "source": "/lgm-meditation-timer/:path*", "destination": "https://lgm-meditation-timer.vercel.app/:path*" }
+    {
+      "source": "/LGM-meditation-timer/",
+      "destination": "https://lgm-meditation-timer.vercel.app/"
+    },
+    {
+      "source": "/lgm-meditation-timer/",
+      "destination": "https://lgm-meditation-timer.vercel.app/"
+    },
+    {
+      "source": "/LGM-meditation-timer/:path+",
+      "destination": "https://lgm-meditation-timer.vercel.app/:path+"
+    },
+    {
+      "source": "/lgm-meditation-timer/:path+",
+      "destination": "https://lgm-meditation-timer.vercel.app/:path+"
+    }
   ]
 }
