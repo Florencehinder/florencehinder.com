@@ -1,11 +1,50 @@
 {
   "cleanUrls": true,
   "redirects": [
-    { "source": "/lgm", "destination": "https://lgm.florencehinder.com/", "permanent": false },
-    { "source": "/lgm/:path*", "destination": "https://lgm.florencehinder.com/:path*", "permanent": false },
-    { "source": "/LGM-meditation-timer", "destination": "https://lgm.florencehinder.com/", "permanent": false },
-    { "source": "/LGM-meditation-timer/:path*", "destination": "https://lgm.florencehinder.com/:path*", "permanent": false },
-    { "source": "/lgm-meditation-timer", "destination": "https://lgm.florencehinder.com/", "permanent": false },
-    { "source": "/lgm-meditation-timer/:path*", "destination": "https://lgm.florencehinder.com/:path*", "permanent": false }
+    {
+      "source": "/lgm",
+      "destination": "https://lgm.florencehinder.com/",
+      "permanent": false
+    },
+    {
+      "source": "/lgm/",
+      "destination": "https://lgm.florencehinder.com/",
+      "permanent": false
+    },
+    {
+      "source": "/lgm/:path+",
+      "destination": "https://lgm.florencehinder.com/:path+",
+      "permanent": false
+    },
+    {
+      "source": "/LGM-meditation-timer",
+      "destination": "https://lgm.florencehinder.com/",
+      "permanent": false
+    },
+    {
+      "source": "/LGM-meditation-timer/",
+      "destination": "https://lgm.florencehinder.com/",
+      "permanent": false
+    },
+    {
+      "source": "/LGM-meditation-timer/:path+",
+      "destination": "https://lgm.florencehinder.com/:path+",
+      "permanent": false
+    },
+    {
+      "source": "/lgm-meditation-timer",
+      "destination": "https://lgm.florencehinder.com/",
+      "permanent": false
+    },
+    {
+      "source": "/lgm-meditation-timer/",
+      "destination": "https://lgm.florencehinder.com/",
+      "permanent": false
+    },
+    {
+      "source": "/lgm-meditation-timer/:path+",
+      "destination": "https://lgm.florencehinder.com/:path+",
+      "permanent": false
+    }
   ]
 }
