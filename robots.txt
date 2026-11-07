@@ -19,4 +19,4 @@ Allow: /
 User-agent: Applebot-Extended
 Allow: /
 
-Sitemap: https://florencehinder.com/sitemap.xml
+Sitemap: https://www.florencehinder.com/sitemap.xml
