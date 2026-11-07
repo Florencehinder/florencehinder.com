@@ -6,12 +6,14 @@
   box-sizing: border-box;
 }
 
-html,
-body {
+html {
   height: 100%;
 }
 
 body {
+  min-height: 100vh;
+  min-height: 100dvh; /* so the meadow ends at the true bottom on phones */
+  position: relative;
   font-family: "Avenir Next", Avenir, "Segoe UI", Helvetica, Arial, sans-serif;
   background: #ffffff;
   color: #1f2430;
@@ -19,13 +21,16 @@ body {
 }
 
 /* Sunflower meadow along the bottom of the screen */
+:root {
+  --meadow-h: max(45vh, 220px);
+}
+
 .meadow {
   position: fixed;
   left: 0;
   right: 0;
   bottom: 0;
-  height: 45vh;
-  min-height: 220px;
+  height: var(--meadow-h);
   pointer-events: none;
   z-index: -1;
 }
@@ -160,6 +165,73 @@ nav.links a:hover {
   opacity: 1;
 }
 
+/* Recent writing on the homepage */
+.writing {
+  margin-top: 2.6rem;
+}
+
+.writing h2 {
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #9aa0ad;
+}
+
+.writing ul {
+  list-style: none;
+  margin-top: 0.9rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+
+.writing a {
+  color: #3c4354;
+  width: fit-content;
+  text-decoration: none;
+  border-bottom: 2px solid #f7e4a8;
+  padding-bottom: 1px;
+  transition: border-color 0.15s ease, color 0.15s ease;
+}
+
+.writing a:hover {
+  color: #8a6d00;
+  border-color: #d9a300;
+}
+
+/* On wide screens the writing list sits in its own column on the right,
+   level with the links; below 900px it stacks underneath as before. */
+@media (min-width: 900px) {
+  main {
+    max-width: 44rem;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    column-gap: 2.5rem;
+    align-items: start;
+  }
+
+  main > h1,
+  main > .tagline {
+    grid-column: 1 / -1;
+  }
+
+  .tagline {
+    max-width: 40rem;
+  }
+
+  nav.links {
+    grid-column: 1;
+  }
+
+  .writing {
+    grid-column: 2;
+    justify-self: end;
+    text-align: right;
+    margin-top: 2.4rem; /* matches the nav's top margin so the columns align */
+  }
+}
+
 /* Inner pages */
 .card {
   background: #ffffff;
@@ -199,4 +271,30 @@ nav.links a:hover {
   margin-top: 1.5rem;
   font-size: 0.9rem;
   color: #9aa0ad;
+}
+
+/* Where the text is taller than the room above a fixed meadow, put the
+   meadow in the flow at the foot of the page and reserve space for it,
+   so the flowers never sit behind the links. */
+@media (max-width: 640px), (max-height: 700px) {
+  :root {
+    --meadow-h: clamp(140px, 30vh, 240px);
+  }
+
+  .meadow {
+    position: absolute;
+  }
+
+  .flower-wrap {
+    bottom: 0;
+  }
+
+  .flower--8 {
+    left: 84%;
+  }
+
+  main {
+    padding-top: clamp(2rem, 6vh, 4rem);
+    padding-bottom: calc(var(--meadow-h) + 1.5rem);
+  }
 }

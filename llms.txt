@@ -1,0 +1,36 @@
+# Florence Hinder
+
+> Personal site of Florence Hinder: optimist, entrepreneur and engineer based in
+> London. She writes Practical Optimism, a blog on practical optimism, technology
+> and other musings, published on Substack.
+
+## Who she is
+
+- Deployment Strategist at Encord (https://encord.com)
+- Cofounder of Flexsta (https://flexsta.com)
+- Builder of many projects across different domains — write-ups are on the blog
+
+## Writing
+
+The blog lives at https://florencehinder.substack.com (publication: Practical Optimism).
+
+Selected posts:
+
+- My Thoughts on Commitment: https://florencehinder.substack.com/p/my-thoughts-on-commitment
+- Investigating an Insurance-for-AI startup: https://florencehinder.substack.com/p/investigating-an-insurance-for-ai-startup
+- Positive visions for AI: https://florencehinder.substack.com/p/positive-visions-for-ai
+- Britain's Brighter Future: https://florencehinder.substack.com/p/igniting-britains-progress-with-better-lighting
+- I decided to stop working on Thought Saver: https://florencehinder.substack.com/p/thought-saver-post-mortem
+- Which mountain are you climbing?: https://florencehinder.substack.com/p/local-maximum-vs-global-maximum
+
+## Key pages
+
+- Home: https://florencehinder.com/
+- Now (what she's doing currently): https://florencehinder.com/now
+- Resume: https://florencehinder.com/florence-hinder-resume.pdf
+
+## Elsewhere
+
+- Substack: https://florencehinder.substack.com
+- X: https://x.com/florencehinder
+- GitHub: https://github.com/florencehinder
