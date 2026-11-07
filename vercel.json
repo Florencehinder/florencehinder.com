@@ -48,37 +48,37 @@
     },
     {
       "source": "/blog",
-      "destination": "https://florencehinder.substack.com/",
+      "destination": "https://blog.florencehinder.com/",
       "permanent": true
     },
     {
       "source": "/blog/:path*",
-      "destination": "https://florencehinder.substack.com/",
+      "destination": "https://blog.florencehinder.com/",
       "permanent": true
     },
     {
       "source": "/rss",
-      "destination": "https://florencehinder.substack.com/feed",
+      "destination": "https://blog.florencehinder.com/feed",
       "permanent": true
     },
     {
       "source": "/rss/",
-      "destination": "https://florencehinder.substack.com/feed",
+      "destination": "https://blog.florencehinder.com/feed",
       "permanent": true
     },
     {
       "source": "/feed",
-      "destination": "https://florencehinder.substack.com/feed",
+      "destination": "https://blog.florencehinder.com/feed",
       "permanent": true
     },
     {
       "source": "/:slug(my-thoughts-on-commitment|investigating-an-insurance-for-ai-startup|positive-visions-for-ai|igniting-britains-progress-with-better-lighting|parrallels-between-sport-and-life|thought-saver-post-mortem|delightful-customer-journeys-with-on-bus-audio-in-auckland|hitchhikers-guide-to-the-world|27-km-to-celebrate-my-27th-birthday|local-maximum-vs-global-maximum|splurge-on-food-save-on-housing|nudging-people-to-active-modes-of-transport|useful-productivity-tools)",
-      "destination": "https://florencehinder.substack.com/p/:slug",
+      "destination": "https://blog.florencehinder.com/p/:slug",
       "permanent": true
     },
     {
       "source": "/:slug(my-thoughts-on-commitment|investigating-an-insurance-for-ai-startup|positive-visions-for-ai|igniting-britains-progress-with-better-lighting|parrallels-between-sport-and-life|thought-saver-post-mortem|delightful-customer-journeys-with-on-bus-audio-in-auckland|hitchhikers-guide-to-the-world|27-km-to-celebrate-my-27th-birthday|local-maximum-vs-global-maximum|splurge-on-food-save-on-housing|nudging-people-to-active-modes-of-transport|useful-productivity-tools)/",
-      "destination": "https://florencehinder.substack.com/p/:slug",
+      "destination": "https://blog.florencehinder.com/p/:slug",
       "permanent": true
     }
   ]
