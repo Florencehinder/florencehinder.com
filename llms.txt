@@ -12,16 +12,16 @@
 
 ## Writing
 
-The blog lives at https://blog.florencehinder.com (publication: Practical Optimism).
+The blog lives at https://florencehinder.substack.com (publication: Practical Optimism).
 
 Selected posts:
 
-- My Thoughts on Commitment: https://blog.florencehinder.com/p/my-thoughts-on-commitment
-- Investigating an Insurance-for-AI startup: https://blog.florencehinder.com/p/investigating-an-insurance-for-ai-startup
-- Positive visions for AI: https://blog.florencehinder.com/p/positive-visions-for-ai
-- Britain's Brighter Future: https://blog.florencehinder.com/p/igniting-britains-progress-with-better-lighting
-- I decided to stop working on Thought Saver: https://blog.florencehinder.com/p/thought-saver-post-mortem
-- Which mountain are you climbing?: https://blog.florencehinder.com/p/local-maximum-vs-global-maximum
+- My Thoughts on Commitment: https://florencehinder.substack.com/p/my-thoughts-on-commitment
+- Investigating an Insurance-for-AI startup: https://florencehinder.substack.com/p/investigating-an-insurance-for-ai-startup
+- Positive visions for AI: https://florencehinder.substack.com/p/positive-visions-for-ai
+- Britain's Brighter Future: https://florencehinder.substack.com/p/igniting-britains-progress-with-better-lighting
+- I decided to stop working on Thought Saver: https://florencehinder.substack.com/p/thought-saver-post-mortem
+- Which mountain are you climbing?: https://florencehinder.substack.com/p/local-maximum-vs-global-maximum
 
 ## Key pages
 
@@ -31,6 +31,6 @@ Selected posts:
 
 ## Elsewhere
 
-- Substack: https://blog.florencehinder.com
+- Substack: https://florencehinder.substack.com
 - X: https://x.com/florencehinder
 - GitHub: https://github.com/florencehinder
